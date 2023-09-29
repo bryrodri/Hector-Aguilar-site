@@ -4,6 +4,7 @@ import PhotoCall from '../Components/PhotoCall/PhotoCall'
 import Info from '../Components/Info/Info'
 import QuestionSection from '../Components/QuestionSection/QuestionSection'
 import Header from '../Components/Header/Header'
+import Footer from '../Components/Footer/Footer'
 
 const Page = () => {
   return (
@@ -14,6 +15,8 @@ const Page = () => {
         <Info />
 
         <QuestionSection />
+
+        <Footer />
 
     </div>
   )

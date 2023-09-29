@@ -1,0 +1,28 @@
+
+
+.SecondSection-Component{
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    min-height: 400px;
+
+    align-items: center;
+}
+
+.SecondSection-Image{
+    width: 250px;
+    height: 280px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid orange;
+
+}
+
+.SecondSection-Component span{
+    width: 40%;
+}

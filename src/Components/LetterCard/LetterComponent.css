@@ -1,0 +1,18 @@
+
+.LetterComponent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.LetterComponent-Line{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+} 

@@ -1,0 +1,23 @@
+.Card-Component{
+}
+
+.Card-Component{
+    width: 200px;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 8px 0 8px 0;
+    gap: 8px;
+
+    padding: 12px;
+
+    text-align: center;
+}
+
+.Card-Component img{
+    width: 80px;
+}

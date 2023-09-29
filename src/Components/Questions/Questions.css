@@ -1,0 +1,22 @@
+.QuestionsComponents{
+    width: 500px;
+}
+
+.QuestionsComponents__question{
+    border-bottom: 1px solid gray;
+}
+
+.QuestionsComponents__questionSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    cursor: pointer;
+
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.QuestionsComponents__questionSection svg{
+    width: 12px;
+}

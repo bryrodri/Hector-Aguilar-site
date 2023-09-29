@@ -1,0 +1,12 @@
+.PrimaryButton{
+    box-sizing: border-box;
+
+    background-color: #000;
+    border: none;
+
+    color: #fff;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 16px;
+}

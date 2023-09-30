@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className='Header-Component'>
         <HeaderVector />
-        <img className='HeaderImg-movil' src="/Image/person-hero.png" alt="" />
+        <img className='HeaderImg-movil' src={process.env.PUBLIC_URL+"/Image/person-hero.png"} alt="" />
 
         <div className='wPatch'></div>
 

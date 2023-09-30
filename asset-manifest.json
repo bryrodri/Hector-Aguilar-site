@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hector-Aguilar-site/static/css/main.9980a123.css",
+    "main.js": "/Hector-Aguilar-site/static/js/main.3af8e87f.js",
+    "static/js/787.dd4029b4.chunk.js": "/Hector-Aguilar-site/static/js/787.dd4029b4.chunk.js",
+    "index.html": "/Hector-Aguilar-site/index.html",
+    "main.9980a123.css.map": "/Hector-Aguilar-site/static/css/main.9980a123.css.map",
+    "main.3af8e87f.js.map": "/Hector-Aguilar-site/static/js/main.3af8e87f.js.map",
+    "787.dd4029b4.chunk.js.map": "/Hector-Aguilar-site/static/js/787.dd4029b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9980a123.css",
+    "static/js/main.3af8e87f.js"
+  ]
+}

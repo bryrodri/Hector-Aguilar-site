@@ -51,9 +51,9 @@ const Footer = () => {
             </div>
 
             <div className='FooterContent-icons'>
-                <img src="/Image/x-logo.png" alt="" />
-                <img src="/Image/x-logo.png" alt="" />
-                <img src="/Image/x-logo.png" alt="" />
+                <img src={process.env.PUBLIC_URL+"/Image/x-logo.png"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/Image/x-logo.png"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/Image/x-logo.png"} alt="" />
 
 
             </div>

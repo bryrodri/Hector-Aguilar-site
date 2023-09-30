@@ -25,7 +25,7 @@ const Header = () => {
                 <PrimaryButton texto='Empezar' />
             </div>
 
-            <img src="/Image/person-hero.png" alt="" />
+            <img src={process.env.PUBLIC_URL+"/Image/person-hero.png"} alt="" />
         </div>
 
     </div>

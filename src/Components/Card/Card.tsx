@@ -6,7 +6,7 @@ import './Card.css'
 const Card = () => {
   return (
     <div className='Card-Component'>
-        <img src="/Image/material-escolar.png" alt="" />
+        <img src={process.env.PUBLIC_URL+"/Image/material-escolar.png"} alt="" />
         <span>Titulo</span>
 
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi atque veniam aliquam quo</span>

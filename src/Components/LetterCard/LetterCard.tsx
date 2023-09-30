@@ -8,8 +8,11 @@ interface Props{
 }
 
 export const LetterCard = ({texto}:Props) => {
+
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
+
   return (
-    <div className='LetterCard' style={{border:texto==="" ? "" : "1px solid var(--primary)", rotate:"-8deg"}}>
+    <div className='LetterCard' style={{border:texto==="" ? "" : "1px solid var(--primary)", rotate:`-${randomNumber}deg`}}>
         {texto}
     </div>
   )

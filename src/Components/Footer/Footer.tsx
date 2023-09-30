@@ -23,25 +23,29 @@ const Footer = () => {
                     <span>Logo</span>
                 </div>
 
-                <div>
-                    <div>
+                <div className='FooterContent-Center'>
+                    <div className='FooterContent-CenterElements'>
                         <span>Blog</span>
                         <span>Terminos y condiciones</span>
                         <span>Politicas</span>
                         <span>Contacto</span>
                     </div>
 
-                    <div>
-                        <span>Suscribete y recibe notificaciones</span>
+                    <div className='FooterContent-CenterForm'>
+                        <span>Suscribete a nuestra newsletter</span>
+                        <div className='Footer-Form'>
+                            <input type="text" placeholder='tucorreo@email.com' />
+                            <button>Suscribirse</button>
+                        </div>
                     </div>
 
                 </div>
 
-                <div>
-                    <span>lorem</span>
-                    <span>lorem</span>
-                    <span>lorem</span>
-                    <span>lorem</span>
+                <div className='FooterContent-List'>
+                    <span>*lorem ipsum</span>
+                    <span>*lorem ipsum</span>
+                    <span>*lorem ipsum</span>
+                    <span>*lorem ipsum</span>
 
                 </div>
             </div>

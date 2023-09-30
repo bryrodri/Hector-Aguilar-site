@@ -1,26 +1,29 @@
 .Header-Component{
 
     width: 100%;
-    background-color: var(--primary);
-    height: 600px;
+    background-color: #fd6f28;
+    height: 400px;
     position: relative;
+    overflow: hidden;
+    color: #fff;
 }
 
 .Header-Component svg{
     position: absolute;
-    left: 250px;
+    left: -100px;
     height: 100%;
     z-index: 0;
-    
+    display: none;    
 }
 
 .wPatch{
-    width: 250px;
+    width: 50px;
     position: absolute;
     height: 100%;
     left: 0;
     background-color: #fff;
     z-index: 0;
+    display: none;
 }
 
 .HeaderContent{
@@ -37,19 +40,84 @@
 }
 
 .HeaderContent-text{
-    width: 30%;
+    width: 100%;
     padding: 0 30px;
 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 30px;
+    gap: 10px;
 
     align-items: flex-start;
 }
 
 .HeaderContent img{
-    width: 700px;
-    height: 100%;
-    object-fit: cover;}
+    width: 150px;
+    object-fit: cover;
+    display: none;
+}
+.HeaderImg-movil{
+    position: absolute;
+    z-index: 0;
+
+    width: 80%;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    display: none;
+
+
+}
+
+
+
+    @media (min-width:1000px){
+        .HeaderImg-movil{
+            display: none;
+        }
+        .Header-Component{
+            background-color: var(--primary);
+            color: #000;
+
+            height: 600px;
+        }
+
+
+        .Header-Component svg{
+            left: -50px;
+            display: block;
+            height: 100%;
+        }
+
+        .wPatch{
+            width: 250px;
+            display: block;
+        }
+
+        .HeaderContent img{
+            width: 600px;
+            display: block;
+
+        }
+
+        .HeaderContent-text{
+            width: 30%;
+            gap: 30px;
+
+        }
+    }
+
+
+    @media (min-width:1300px){
+        .Header-Component svg{
+            left: 250px;
+
+        }
+
+        .HeaderContent img{
+            width: 700px;
+
+        }
+    }
 

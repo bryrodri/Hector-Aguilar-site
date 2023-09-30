@@ -1,5 +1,5 @@
 .QuestionsComponents{
-    width: 500px;
+    width: 300px;
 }
 
 .QuestionsComponents__question{
@@ -19,4 +19,18 @@
 
 .QuestionsComponents__questionSection svg{
     width: 12px;
+}
+
+@media (min-width:450px){
+    .QuestionsComponents{
+        width: 400px;
+    }
+}
+
+
+
+@media (min-width:1000px){
+    .QuestionsComponents{
+        width: 500px;
+    }
 }

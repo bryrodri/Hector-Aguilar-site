@@ -20,6 +20,8 @@ const Info = () => {
           <Card></Card>
           <Card></Card>
 
+          
+
         </div>
 
 

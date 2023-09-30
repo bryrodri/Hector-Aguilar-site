@@ -2,7 +2,7 @@
 }
 
 .Card-Component{
-    width: 200px;
+    width: 130px!important;
 
     box-sizing: border-box;
     display: flex;
@@ -13,11 +13,30 @@
     border-radius: 8px 0 8px 0;
     gap: 8px;
 
-    padding: 12px;
+    padding: 16px 12px;
 
     text-align: center;
+    color: #fff;
 }
 
 .Card-Component img{
     width: 80px;
+}
+
+@media (min-width:450px){
+    .Card-Component{
+        width: 150px!important;
+    
+
+    }
+}
+
+
+
+@media (min-width:1000px){
+    .Card-Component{
+        width: 200px!important;
+    
+
+    }
 }

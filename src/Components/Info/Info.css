@@ -11,9 +11,11 @@
     box-sizing: border-box;
 
     overflow-x: auto;
+
 }
 
 .info-containerText{
+    font-size: 1.4rem;
     font-weight: bold;
 }
 

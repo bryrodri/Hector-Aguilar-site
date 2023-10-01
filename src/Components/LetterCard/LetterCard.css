@@ -12,9 +12,16 @@
     justify-content: center;
     color: var(--primary);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     transition: all 1s ease-in-out;
+}
+
+.LetterCardShadow{
+
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
 }
 
 
@@ -32,7 +39,9 @@
 @media (min-width:1000px){
     .LetterCard{
         width: 9%;
-        height: 150px;
+        max-width: 100px;
+        height: 140px;
+        font-size: 1.8rem;
 
 
     }

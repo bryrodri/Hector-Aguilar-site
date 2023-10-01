@@ -13,9 +13,9 @@ const Card = ({img, title, text}:Props) => {
   return (
     <div className='Card-Component'>
         <img src={process.env.PUBLIC_URL+img} alt="" />
-        <span>{title}</span>
+        <span className='Card-Title'>{title}</span>
 
-        <span>{text}</span>
+        <span className='Card-content'>{text}</span>
     </div>
   )
 }

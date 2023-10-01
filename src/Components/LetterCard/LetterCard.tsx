@@ -33,7 +33,7 @@ export const LetterCard = ({texto}:Props) => {
   // }, []);
 
   return (
-    <div ref={ref} className='LetterCard' style={{border:texto==="" ? "" : "2px solid var(--primary)", rotate:`${orientation()}${randomNumber}deg`}}>
+    <div ref={ref} className={texto==="" ? "LetterCard " : "LetterCard LetterCardShadow"} style={{border:texto==="" ? "" : "1px solid var(--primary)", rotate:`${orientation()}${randomNumber}deg`}}>
         {texto}
     </div>
   )

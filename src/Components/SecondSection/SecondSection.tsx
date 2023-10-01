@@ -7,7 +7,7 @@ import SecundaryButton from '../SecundaryButton/SecundaryButton'
 const SecondSection = () => {
   return (
     <div className='SecondSection-Component'>
-        <SecundaryButton texto='Mapa' style={{position:"absolute", top:"20px", right:"20px"}} />
+        <SecundaryButton texto='Mapa' style={{position:"absolute", top:"40px", right:"40px"}} />
 
         <div className='SecondSection-Image'>
 

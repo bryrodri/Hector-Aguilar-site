@@ -3,13 +3,19 @@ import React from 'react'
 //style
 import './Card.css'
 
-const Card = () => {
+interface Props{
+  img: string,
+  title: string,
+  text: string
+}
+
+const Card = ({img, title, text}:Props) => {
   return (
     <div className='Card-Component'>
-        <img src={process.env.PUBLIC_URL+"/Image/material-escolar.png"} alt="" />
-        <span>Titulo</span>
+        <img src={process.env.PUBLIC_URL+img} alt="" />
+        <span>{title}</span>
 
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi atque veniam aliquam quo</span>
+        <span>{text}</span>
     </div>
   )
 }

@@ -8,11 +8,13 @@
 
     justify-content: center;
     align-items: center;
-
+    width: 100%;
 }
 
 .LetterComponent-Line{
     display: flex;
     flex-direction: row;
     gap: 25px;
+    width: 100%;
+    justify-content: center;
 } 

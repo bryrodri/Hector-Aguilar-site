@@ -6,6 +6,7 @@ import QuestionSection from '../Components/QuestionSection/QuestionSection'
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 import ClientSection from '../Components/ClientSection/ClientSection'
+import NewInfo from '../Components/Info/newInfo'
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
         <Header />
         <SecondSection />
         <PhotoCall />
+        <NewInfo />
         <Info />
         <ClientSection />
 

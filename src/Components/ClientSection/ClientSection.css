@@ -24,13 +24,15 @@
 
 
 .ClientSection span{
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 
 @media (min-width:1000px){
+    .ClientSection{
+    }
     .ClientSection svg{
         width: 70%;
     }

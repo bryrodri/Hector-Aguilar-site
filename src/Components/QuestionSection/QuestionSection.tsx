@@ -10,8 +10,6 @@ const QuestionSection = () => {
     <div className='QuestionSection'>
         <span>Preguntas frecuentes</span>
 
-
-
         <Questions />
 
         <PrimaryButton texto='Empezar' />

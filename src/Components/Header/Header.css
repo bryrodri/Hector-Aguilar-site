@@ -36,6 +36,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+
     
 }
 
@@ -90,12 +91,13 @@
             background-color: var(--primary);
             color: #000;
 
-            height: 600px;
+            height: 100vh;
+
         }
 
 
         .Header-Component svg{
-            left: -50px;
+            left: -100px;
             display: block;
             height: 100%;
         }
@@ -106,27 +108,30 @@
         }
 
         .HeaderContent img{
-            width: 600px;
+            width: 50%;
+            height: 100%;
             display: block;
+            margin-top: auto;
 
         }
 
         .HeaderContent-text{
-            width: 30%;
+            width: 40%;
             gap: 30px;
+            font-size: 1.6rem;
 
         }
     }
 
 
-    @media (min-width:1300px){
+    @media (min-width:1400px){
         .Header-Component svg{
-            left: 250px;
+            left: 0px;
 
         }
 
         .HeaderContent img{
-            width: 700px;
+            width: 50%;
 
         }
     }

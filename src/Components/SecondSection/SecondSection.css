@@ -9,8 +9,7 @@
 
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    min-height: 500px;
-
+    height: 500px;
     align-items: center;
 }
 
@@ -27,4 +26,12 @@
     width: 40%;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+
+@media (min-width:1000px){
+    .SecondSection-Component{
+
+        height: 100vh;
+    }
 }

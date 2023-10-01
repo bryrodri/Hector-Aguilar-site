@@ -25,4 +25,6 @@
 
 .SecondSection-Component span{
     width: 40%;
+    font-size: 1.3rem;
+    font-weight: bold;
 }

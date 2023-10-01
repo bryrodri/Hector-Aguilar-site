@@ -52,8 +52,8 @@ const Footer = () => {
 
             <div className='FooterContent-icons'>
                 <img src={process.env.PUBLIC_URL+"/Image/x-logo.png"} alt="" />
-                <img src={process.env.PUBLIC_URL+"/Image/x-logo.png"} alt="" />
-                <img src={process.env.PUBLIC_URL+"/Image/x-logo.png"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/Image/instagram-logo.png"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/Image/threads-logo.png"} alt="" />
 
 
             </div>

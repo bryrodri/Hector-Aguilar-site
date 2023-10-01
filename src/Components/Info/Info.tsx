@@ -10,7 +10,7 @@ const Info = () => {
     <div className='info-container'>
         <LetterComponent></LetterComponent>
 
-        <span>(No tiene sentido)</span>
+        <span className='info-containerText'>(No tiene sentido)</span>
 
         <span>En su lugar te ofrecemos</span>
 

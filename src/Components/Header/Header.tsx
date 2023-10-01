@@ -20,7 +20,7 @@ const Header = () => {
             <div className='HeaderContent-text'>
                 <h1>Lorem ipsum dolor sit amet </h1>
 
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dignissimos provident rerum doloribus architecto, eveniet ratione impedit esse ab quasi ut accusantium libero aspernatur, repellat quia culpa! Nisi, quam magnam!</span>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
 
                 <PrimaryButton texto='Empezar' />
             </div>

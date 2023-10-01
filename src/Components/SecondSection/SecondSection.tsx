@@ -14,7 +14,7 @@ const SecondSection = () => {
         </div>
 
         <span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dolore, accusamus quisquam eos ullam corporis non aliquid facere labore, expedita, nesciunt quos? Explicabo vel eveniet dolorum tenetur laboriosam fugiat accusantium!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dolore, accusamus quisquam 
         </span>
 
     </div>

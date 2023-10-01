@@ -5,6 +5,7 @@ import Info from '../Components/Info/Info'
 import QuestionSection from '../Components/QuestionSection/QuestionSection'
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
+import ClientSection from '../Components/ClientSection/ClientSection'
 
 const Page = () => {
   return (
@@ -13,6 +14,7 @@ const Page = () => {
         <SecondSection />
         <PhotoCall />
         <Info />
+        <ClientSection />
 
         <QuestionSection />
 

@@ -42,3 +42,9 @@
         height: 100vh;
     }
 }
+
+@media (min-width:1440px){
+    .PhotoCall-Component{
+        max-height: 800px;
+    }
+}

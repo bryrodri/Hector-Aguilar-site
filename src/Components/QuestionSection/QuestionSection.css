@@ -26,3 +26,9 @@
     
     }
 }
+
+@media (min-width:1440px){
+    .QuestionSection{
+        max-height: 800px;
+    }
+}

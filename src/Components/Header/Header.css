@@ -5,7 +5,7 @@
     height: 400px;
     position: relative;
     overflow: hidden;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .Header-Component svg{
@@ -13,7 +13,6 @@
     left: -100px;
     height: 100%;
     z-index: 0;
-    display: none;    
 }
 
 .wPatch{
@@ -55,7 +54,7 @@
 
 .HeaderContent-text span{
     font-weight: bold;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .HeaderContent img{
@@ -124,7 +123,10 @@
     }
 
 
-    @media (min-width:1400px){
+    @media (min-width:1440px){
+        .Header-Component{
+            max-height: 800px;
+        }
         .Header-Component svg{
             left: 0px;
 

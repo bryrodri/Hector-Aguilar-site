@@ -35,3 +35,10 @@
         height: 100vh;
     }
 }
+
+
+@media (min-width:1440px){
+    .SecondSection-Component{
+        max-height: 800px;
+    }
+}

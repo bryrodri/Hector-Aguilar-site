@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Hector-Aguilar-site/static/css/main.babad1ad.css",
+    "main.css": "/Hector-Aguilar-site/static/css/main.b0e290e2.css",
     "main.js": "/Hector-Aguilar-site/static/js/main.a780d067.js",
     "static/js/787.dd4029b4.chunk.js": "/Hector-Aguilar-site/static/js/787.dd4029b4.chunk.js",
     "index.html": "/Hector-Aguilar-site/index.html",
-    "main.babad1ad.css.map": "/Hector-Aguilar-site/static/css/main.babad1ad.css.map",
+    "main.b0e290e2.css.map": "/Hector-Aguilar-site/static/css/main.b0e290e2.css.map",
     "main.a780d067.js.map": "/Hector-Aguilar-site/static/js/main.a780d067.js.map",
     "787.dd4029b4.chunk.js.map": "/Hector-Aguilar-site/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.babad1ad.css",
+    "static/css/main.b0e290e2.css",
     "static/js/main.a780d067.js"
   ]
 }
